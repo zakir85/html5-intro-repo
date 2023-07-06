@@ -9,3 +9,31 @@ header{
     background-color: #164B60;
     color: #fff;
 }
+.azan{
+    background-color: aquamarine;
+    text-align: center;
+}
+audio{
+    background-color: #C7E9B0;
+    margin: 10px;
+}
+
+.videoclip{
+    display: flex;
+    background-color: rgb(242, 246, 242);
+    justify-content: space-between;
+    
+
+}
+
+.video-box{
+    padding: 0 20px;
+    
+}
+
+footer {
+    background-color: #4E6E81;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
