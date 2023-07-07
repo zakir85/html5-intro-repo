@@ -4,10 +4,21 @@
 }
 
 header{
-    text-align: center;
-    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 30px;
     background-color: #164B60;
     color: #fff;
+}
+nav>ul>li{
+    display: inline;
+    margin-right: 20px;
+}
+nav li>a{
+    text-decoration: none;
+    color: #fff;
+
 }
 .azan{
     background-color: aquamarine;
@@ -36,3 +47,14 @@ footer {
     padding: 15px;
     text-align: center;
   }
+
+  /* Blogs article */
+.blog_header{
+    background-color: #1C82AD;
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+.images{
+    display: flex;
+}
